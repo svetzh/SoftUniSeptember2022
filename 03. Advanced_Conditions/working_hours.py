@@ -1,5 +1,5 @@
 number: int = int(input())
-day = str(input())
+day = input()
 
 working_hours = ""
 if 10 <= number <= 18:
