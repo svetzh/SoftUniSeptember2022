@@ -24,7 +24,7 @@ if day_of_week == "Monday" or day_of_week == "Tuesday" or day_of_week == "Wednes
     else:
         print("error")
         exit()
-elif day_of_the_week == "Saturday" or day_of_the_week == "Sunday":
+elif day_of_week == "Saturday" or day_of_week == "Sunday":
     if fruit_product == "banana":
         price = 2.7
     elif fruit_product == "apple":
