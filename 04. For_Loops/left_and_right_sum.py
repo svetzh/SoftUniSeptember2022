@@ -1,14 +1,15 @@
-count_of_numbers = int(input())
+count_of_number = int(input())
+left_sum = 0
+right_sum = 0
 
-for number in range(count_of_numbers):
-    current_num = int(input())
-    if number == 0:
-        min_num = current_num
-        max_num = current_num
-    if current_num > max_num:
-        max_num = current_num
-    if current_num < min_num:
-        min_num = current_num
-print(f"Max number: {max_num}")
-print(f"Min number: {min_num}")
+for numbers in range(2 * count_of_number):
+    current_number = int(input())
+    if numbers < count_of_number:
+        left_sum += current_number
+    else:
+        right_sum += current_number
 
+if left_sum == right_sum:
+    print(f"Yes, sum = {left_sum}")
+else:
+    print(f"No, diff = {abs(left_sum - right_sum)}")
