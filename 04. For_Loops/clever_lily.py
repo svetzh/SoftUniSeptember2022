@@ -5,11 +5,12 @@ toy_price = int(input())
 money_received = 0
 brother_interest = 0
 received_toy = 0
-add_money = 0
+initial_and_additional_money = 0
+
 for birthday in range(1, age_of_Lily + 1):
     if birthday % 2 == 0:
-        add_money = add_money + 10
-        money_received = money_received + add_money
+        initial_and_additional_money += 10
+        money_received += initial_and_additional_money
         brother_interest += 1
     else:
         received_toy += 1
