@@ -9,7 +9,7 @@ persons_group5_everest = 0
 count_climbers_in_group = 0
 sum_of_climbers_in_group = 0
 
-for i in range(climbers_groups):
+for _ in range(climbers_groups):
     count_climbers_in_group = int(input())
     sum_of_climbers_in_group += count_climbers_in_group
 
