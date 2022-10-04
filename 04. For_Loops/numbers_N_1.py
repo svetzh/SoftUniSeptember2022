@@ -1,4 +1,3 @@
-num = int(input())
-
-for number in range(num, 0, -1):
-    print(number)
+number = int(input())
+for i in range(number, 0, -1):
+    print(i)

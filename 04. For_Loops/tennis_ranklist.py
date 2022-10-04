@@ -6,6 +6,7 @@ percent_all_tournaments = 0
 current_average_points = 0
 final_points = 0
 won_tours = 0
+
 for a_tour in range(1, count_tournaments + 1):
     stage = input()
 
